@@ -1,0 +1,18 @@
+ 1. Stvorite klasu Student sa sljedećim poljima:
+        id (integer)
+        name (String)
+        age (integer)
+        gpa (double)
+        Također, uključite odgovarajući konstruktor, getere i settere za klasu.
+
+ 2. Implementirajte sljedeća funkcionalna sučelja:
+        Filter: uzima objekt student kao ulaz i vraća boolean vrijednost.
+        Mapper: uzima objekt Student kao ulaz i vraća novi objekt Student.
+
+ 3. Implementirajte klasu StudentUtils koja sadrži sljedeće statičke metode:
+ filterStudents(List<Student> students, Filter filter):
+ Uzima popis studenata i Filter objekt kao ulaz, filtrira popis pomoću zadanog Filtra i vraća filtrirani popis.
+ mapStudents(List<Student> students, Mapper Mapper):
+ Uzima popis učenika i Mapper objekt kao ulaz, mapira popis pomoću zadanog Mappera i vraća mapirani popis.
+
+ 4. U glavnoj klasi izradite popis Studentskih objekata i demonstrirajte korištenje lambda funkcija s funkcionalnim sučeljima.
